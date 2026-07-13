@@ -19,7 +19,7 @@
         </nav>
     </header>
     
-    <h1>Ben Anderson Portfolio CSE 134B Homework 2 Part 1</h1>
+    <h1>Contact</h1>
 
     <h2>Contact Me</h2>
     <p>Send a message here!</p>
@@ -27,15 +27,21 @@
     <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-        
+        <br />
         <label for="email">Your Email:</label>
         <input type="email" id="email" name="email" required>
-        
+        <br />
         <label for="message">Your Message:</label>
         <textarea id="message" name="message" required></textarea>
-        
+        <progress value="70" max="100">70/100 of character limit</progress>
+        <br />
         <button type="submit">Submit</button>
     </form>
+
+    <dialog open>
+        <p>Thank you for your message!</p>
+        <button id="closeDialog">Close</button>
+    </dialog>
 
     <hr />
     <h2>Contact Information</h2>
